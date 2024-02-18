@@ -1,5 +1,7 @@
+#!/usr/bin/python3
+
 from flask import Flask, jsonify
-import girlchild
+import female_info
 
 app = Flask(__name__)
 
