@@ -30,7 +30,7 @@
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
 
-*, *:before, *:after {
+, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -68,7 +68,7 @@ a {
 }
 
 iframe {
-    border: 0;
+    border: 0 !important;
 }
 
 .parallax-window {
@@ -202,11 +202,11 @@ section {
 }
 
 .big-padding-top {
-    padding-top: 75px;
+    padding-top: 75px !important;
 }
 
 .big-padding-bottom {
-    padding-bottom: 85px;
+    padding-bottom: 85px !important;
 }
 
 /* Targets all elements */
@@ -302,11 +302,11 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-    height: 71px;
+    height: 71px !important;
     overflow: visible;
     z-index: 9999;
     width: 100%;
-    position: absolute;
+    position: absolute !important;
 }
 
 #header .row {
@@ -509,7 +509,7 @@ section {
 #header.nav-solid {
     background: #fff;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
-    position: fixed;
+    position: fixed !important;
     left:0;
 }
 
@@ -646,7 +646,7 @@ nav#nav-mobile a {
     height: auto;
     line-height: normal;
     display: block;
-    border-bottom: none;
+    border-bottom: none !important;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -810,7 +810,7 @@ h6 {
 /*Font Icon sizes*/
 
 .fa-1x {
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 /*Icon Block*/
@@ -1293,13 +1293,13 @@ blockquote {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
-    width: 100%;
-    height: 529px;
+    width: 100% !important;
+    height: 529px !important;
 }
 
 .videojs-background-wrap {
@@ -1396,8 +1396,7 @@ blockquote {
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -2114,7 +2113,7 @@ blockquote {
     }
 
     .row {
-        padding: 15px;
+        padding: 15px !important;
     }
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38, .row {
@@ -2128,7 +2127,7 @@ blockquote {
 
     /*-----------------Header Elements-----------------*/
     #header .row {
-        padding: 0 15px;
+        padding: 0 15px !important;
     }
 
     #header.nav-solid [class*="col-"] {
@@ -2151,7 +2150,7 @@ blockquote {
     }
 
     #banner-content.row {
-        padding-top: 85px;
+        padding-top: 85px !important;
     }
 
     /*-----------------Sections-----------------*/
@@ -2163,7 +2162,7 @@ blockquote {
 
     /* Video */
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
-        height: 270px;
+        height: 270px !important;
     }
 
     /* Footer */
@@ -2188,7 +2187,7 @@ blockquote {
 
     /* Hide Elements */
     a#scrollUp {
-        display: none;
+        display: none !important;
     }
 
 }
@@ -2208,7 +2207,7 @@ blockquote {
 
 
     .row {
-        padding: 15px 0;
+        padding: 15px 0 !important;
     }
 
     .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
@@ -2221,7 +2220,7 @@ blockquote {
 
     /*-----------------Header Elements-----------------*/
     #header .row {
-        padding: 0;
+        padding: 0 !important;
     }
 
     #header aside {
@@ -2238,12 +2237,12 @@ blockquote {
     }
 
     #header aside ul {
-        margin-top: 0;
+        margin-top: 0 !important;
         padding-top: 6px;
     }
 
     #banner-content.row {
-        padding-top: 85px;
+        padding-top: 85px !important;
     }
 
     /*Navigation*/
@@ -2258,7 +2257,7 @@ blockquote {
 
     /* Video */
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
-        height: 370px;
+        height: 370px !important;
     }
 
     /* Footer */
@@ -2288,7 +2287,7 @@ blockquote {
     }
 
     .big-padding-top {
-        padding-top: 45px;
+        padding-top: 45px !important;
     }
 
     /*-----------------Header Elements-----------------*/
@@ -2306,7 +2305,7 @@ blockquote {
     }
 
     #header aside ul {
-        margin-top: 0;
+        margin-top: 0 !important;
         padding-top: 6px;
     }
 
@@ -2322,7 +2321,7 @@ blockquote {
 
     /* Video */
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
-        height: 432px;
+        height: 432px !important;
     }
 
 }
