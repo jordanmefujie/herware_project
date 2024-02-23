@@ -1,0 +1,33 @@
+{
+  "name": "herware-project",
+  "version": "1.0.0",
+  "description": "Herware project - Unlocking Potential, Inspiring Her Journey.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "herware",
+    "project",
+    "frontend",
+    "backend",
+    "react",
+    "flask"
+  ],
+  "author": "Jordan Lonpolidormor Mefujie, Joshua A.",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.68.0"
+  }
+}
