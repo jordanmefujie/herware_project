@@ -30,7 +30,7 @@
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
 
-, *:before, *:after {
+*:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -432,7 +432,7 @@ section {
 .play-icon:before {
     font-family: 'fontawesome';
     content: '\f144';
-    speak: none;
+    peak: none;
     font-size: 74px;
     line-height: 110px;
     font-style: normal;
